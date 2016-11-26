@@ -752,6 +752,15 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla15)&&(this.turno==0)&&(this.dis15==1)){
 			this.casilla15.setText("O");
 			this.val[14]="O";
+			if(this.val[12]=="O"&&this.val[13]=="O"&&this.val[14]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[11]=="O"&&this.val[14]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[5]=="O"&&this.val[14]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis15=0;
 			this.turno=1;
 			repaint();
@@ -778,6 +787,18 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla16)&&(this.turno==0)&&(this.dis16==1)){
 			this.casilla16.setText("O");
 			this.val[15]="O";
+			if(this.val[15]=="O"&&this.val[16]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[9]=="O"&&this.val[12]=="O"&&this.val[15]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[11]=="O"&&this.val[13]=="O"&&this.val[15]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[6]=="O"&&this.val[15]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis16=0;
 			this.turno=1;
 			repaint();
@@ -798,6 +819,12 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla17)&&(this.turno==0)&&(this.dis17==1)){
 			this.casilla17.setText("O");
 			this.val[16]="O";
+			if(this.val[15]=="O"&&this.val[16]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[10]=="O"&&this.val[13]=="O"&&this.val[16]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis17=0;
 			this.turno=1;
 			repaint();
@@ -827,6 +854,21 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla18)&&(this.turno==0)&&(this.dis18==1)){
 			this.casilla18.setText("O");
 			this.val[17]="O";
+			if(this.val[15]=="O"&&this.val[16]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[11]=="O"&&this.val[14]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[9]=="O"&&this.val[13]=="O"&&this.val[17]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[7]=="O"&&this.val[16]=="O"&&this.val[25]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[8]=="O"&&this.val[17]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis18=0;
 			this.turno=1;
 			repaint();
@@ -853,6 +895,18 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla19)&&(this.turno==0)&&(this.dis19==1)){
 			this.dis19=0;
 			this.val[18]="O";
+			if(this.val[18]=="O"&&this.val[19]=="O"&&this.val[20]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[21]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[22]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[0]=="O"&&this.val[9]=="O"&&this.val[18]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.casilla19.setText("O");
 			this.turno=1;
 			repaint();
@@ -876,6 +930,15 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla20)&&(this.turno==0)&&(this.dis20==1)){
 			this.casilla20.setText("O");
 			this.val[19]="O";
+			if(this.val[18]=="O"&&this.val[19]=="O"&&this.val[20]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[19]=="O"&&this.val[22]=="O"&&this.val[25]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[1]=="O"&&this.val[10]=="O"&&this.val[19]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis20=0;
 			this.turno=1;
 			repaint();
@@ -902,6 +965,18 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla21)&&(this.turno==0)&&(this.dis21==1)){
 			this.casilla21.setText("O");
 			this.val[20]="O";
+			if(this.val[18]=="O"&&this.val[19]=="O"&&this.val[20]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[20]=="O"&&this.val[23]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[20]=="O"&&this.val[22]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[2]=="O"&&this.val[11]=="O"&&this.val[20]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis21=0;
 			this.turno=1;
 			repaint();
@@ -927,6 +1002,15 @@ public class PanelGato extends JPanel implements MouseListener{
 			this.val[21]="O";
 			this.dis22=0;
 			this.turno=1;
+			if(this.val[21]=="O"&&this.val[22]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[21]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[3]=="O"&&this.val[12]=="O"&&this.val[21]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			repaint();
 		}
 		if((e.getSource() == this.casilla23)&&(this.turno==1)&&(this.dis23==1)){
@@ -954,6 +1038,21 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla23)&&(this.turno==0)&&(this.dis23==1)){
 			this.casilla23.setText("O");
 			this.val[22]="O";
+			if(this.val[21]=="O"&&this.val[22]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[19]=="O"&&this.val[22]=="O"&&this.val[25]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[22]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[22]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[4]=="O"&&this.val[13]=="O"&&this.val[22]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis23=0;
 			this.turno=1;
 			repaint();
@@ -977,6 +1076,15 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla24)&&(this.turno==0)&&(this.dis24==1)){
 			this.casilla24.setText("O");
 			this.val[23]="O";
+			if(this.val[21]=="O"&&this.val[22]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[20]=="O"&&this.val[23]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[5]=="O"&&this.val[14]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis24=0;
 			this.turno=1;
 			repaint();
@@ -1003,6 +1111,18 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla25)&&(this.turno==0)&&(this.dis25==1)){
 			this.casilla25.setText("O");
 			this.val[24]="O";
+			if(this.val[24]=="O"&&this.val[25]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[21]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[22]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[6]=="O"&&this.val[15]=="O"&&this.val[24]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis25=0;
 			this.turno=1;
 			repaint();
@@ -1026,6 +1146,15 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla26)&&(this.turno==0)&&(this.dis26==1)){
 			this.casilla26.setText("O");
 			this.val[25]="O";
+			if(this.val[21]=="O"&&this.val[22]=="O"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[19]=="O"&&this.val[22]=="O"&&this.val[25]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[7]=="O"&&this.val[16]=="O"&&this.val[25]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis26=0;
 			this.turno=1;
 			repaint();
@@ -1052,6 +1181,18 @@ public class PanelGato extends JPanel implements MouseListener{
 		else if((e.getSource()==this.casilla27)&&(this.turno==0)&&(this.dis27==1)){
 			this.casilla27.setText("O");
 			this.val[26]="O";
+			if(this.val[21]=="O"&&this.val[22]=="X"&&this.val[23]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[20]=="O"&&this.val[23]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[18]=="O"&&this.val[22]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
+			else if(this.val[8]=="O"&&this.val[17]=="O"&&this.val[26]=="O"){
+				JOptionPane.showMessageDialog(null, "Gana el jugador 2");
+			}
 			this.dis27=0;
 			this.turno=1;
 			repaint();
